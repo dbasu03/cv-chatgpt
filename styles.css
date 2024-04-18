@@ -31,10 +31,15 @@ header {
 .contact-info ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact-info li {
     margin-bottom: 5px;
+    margin-right: 20px;
 }
 
 .skills {
