@@ -44,6 +44,12 @@ nav ul li a {
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 768px) {
+    header nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
 
 #home {
     background: linear-gradient(135deg, maroon, royalblue);
