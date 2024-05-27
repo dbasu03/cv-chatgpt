@@ -3,133 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            
-            <div class="profile-info">
-                <img src="image1.jpg" alt="Profile Picture">
-                <div class="name-job">
-                    <h1>Deepayan Basu</h1>
-                    <p>Jadavpur University</p>
-                </div>
-            </div>
-            <div class="contact-info">
-                <ul>
-                    <li><i class="fas fa-phone"></i>+91-9038769430</li>
-                    <li><i class="fas fa-envelope"></i> basudeepayan123@gmail.com</li>
-                    <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/deepayan-basu/?originalSubdomain=in">LinkedIn Profile</a></li>
-                    <li><i class="fab fa-github"></i> <a href="https://github.com/dbasu03">dbasu03</a></li>
-                    <li><i class="fas fa-map-marker-alt"></i>Kolkata, India</li>
-                </ul>
-            </div>
-            <div class="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Webdev:Javascript,NodeJS,ReactJS,MongoDB,HTML,CSS,React Native,Express,Vite. Machine Learning:Numpy,Matplotlib,Scipy,Python,Pandas,R. DSA:Java, Problem solving. Languages:English, Hindi, Bengali
-                        <ul>
-                            <li> </li>
-                            
-                            <!-- Add more skills in this category as needed -->
-                        </ul>
-                    </li>
-                    <!-- Add more skill categories and skills as needed -->
-                    <li> 
-                        <ul>
-                            <li> </li>
-                            
-                            
-
-                            <!-- Add more skills in this category as needed -->
-                        </ul>
-                    </li>
-                    <!-- Add more skill categories and skills as needed -->
-                    <li> 
-                        <ul>
-                            <li> </li>
-                            <!-- Add more skills in this category as needed -->
-                        </ul>
-                    </li>
-                    <!-- Add more skill categories and skills as needed -->
-                    <li> 
-                        <ul>
-                            <li> </li>
-                            
-                            <!-- Add more skills in this category as needed -->
-                        </ul>
-                    </li>
-                    <!-- Add more skill categories and skills as needed -->
-                </ul>
-            </div>
-        </header>
-        <div class="line"></div>
-        
-        <section class="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Research Paper-Dehazing Indoor and Outdoor Images using Deep Learning Approaches:</strong><br>
-                    RS paper on dehazing images using the UNET architecture of deep learning. Skills required: Python, PyTorch, Pandas and MatplotLib.
-
-                </li>
-                <li><strong>Tictactoe game</strong> (https://github.com/dbasu03/cnn/blob/main/tictactoe.ipynb):<br>
-                    A tictactoe game where winning is impossible! Skills used:Python, logic.
-
-                </li>
-                <li><strong>Event site</strong> (https://jumun2024.com/) to handle the registrations and traction for the event.
-                </li>
-                <!-- Add more projects as needed -->
-            </ul>
-        </section>
-        <div class="line"></div>
-        <section class="position-of-responsibility">
-            <h2>Positions of Responsibility</h2>
-            <ul>
-                <li><strong>Jadavpur University Model United Nations '24: Frontend Developer</strong><br>
-                        Built the website https://jumun2024.com/ to handle the registrations and traction for the event. Skills required: NodeJS, ReactJS, Javascript, CSS and Vite.<br>
-                        
- 
-                </li>
-                
-                <!-- Add more positions of responsibility as needed -->
-            </ul>
-        </section>
-        <div class="line"></div>
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>B.Tech ECE (2022-26), Jadavpur University</strong><br>
-                        Clubs: E-Cell, Debating Club.
-                </li>
-                <li><strong>ISC (2008-22), Calcutta Boys' School</strong><br>
-                        Activities: School band, Football team
-                </li>
-                <li><strong>Ai-DS Course-Computer Sc dept Jadavpur University (June'23-Dec'23)</strong><br>
-                    6 months course on artificial intelligent and data science in computer science department CMATER lab, Jadavpur University.
-                </li>
-                <!-- Add more education details as needed -->
-            </ul>
-        </section>
-        <div class="line"></div>
-        <section class="exam-scores">
-            <h2>Exam Scores</h2>
-            <ul>
-                <li><strong>Jee Adv:</strong> AIR 8084</li>
-                <li><strong>Jee Mains:</strong> 99.3796%ile</li>
-                <li><strong>Wbjee:</strong> AIR 538</li>
-                <li><strong>Icse:</strong> 94.4%</li>
-                <!-- Add more exam scores as needed -->
-            </ul>
-        </section>
-        <div class="line"></div>
-        
-        <div class="line"></div>
-        
-        
+    <div id="preloader">
+        <div class="spinner"></div>
     </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="home-container">
+            <div class="home-image">
+                <img src="image1.jpg" alt="Profile Picture">
+            </div>
+            <div class="home-text">
+                <h1>Hi, Deepayan Basu</h1>
+                <p>Currently pursuing Electronics and Telecommunications Engineering from Jadavpur University.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">NodeJS</div>
+            <div class="skill-box">ReactJS</div>
+            <div class="skill-box">MongoDB</div>
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">React Native</div>
+            <div class="skill-box">Express</div>
+            <div class="skill-box">Vite</div>
+            <div class="skill-box">Numpy</div>
+            <div class="skill-box">Matplotlib</div>
+            <div class="skill-box">Beautifulsoup</div>
+            <div class="skill-box">Python</div>
+            <div class="skill-box">Pandas</div>
+            <div class="skill-box">R</div>
+            <div class="skill-box">Java</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <p>Refer to my linkedin profile for the list of projects.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Get in touch with me.</p>
+        <div class="social-links">
+            <a href="basudeepayan123@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Gmail</a>
+            <a href="https://www.linkedin.com/in/deepayan-basu/?originalSubdomain=in" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/dbasu03" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://leetcode.com/u/dbooze/" target="_blank"><i class="fas fa-code"></i> LeetCode</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
