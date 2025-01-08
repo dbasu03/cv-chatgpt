@@ -170,7 +170,7 @@ nav ul li a {
 }
 
 #home {
-    background: url('https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.jpg?s=612x612&w=0&k=20&c=AHcmpswk3g3toHSFt5yCV_1uzMZUaJl95p3UIgm8euo=');/*linear-gradient(135deg, maroon, rgb(255, 161, 99));*/
+    background: url('https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg');/*linear-gradient(135deg, maroon, rgb(255, 161, 99));*/
     color: white;
 }
 
@@ -207,7 +207,7 @@ nav ul li a {
 }
 
 #skills, #projects, #contact {
-    background: url('https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.jpg?s=612x612&w=0&k=20&c=AHcmpswk3g3toHSFt5yCV_1uzMZUaJl95p3UIgm8euo=');
+    background: url('https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg');
 }
 
 #skills h2, #projects h2, #contact h2 {
