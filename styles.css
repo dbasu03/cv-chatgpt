@@ -182,7 +182,7 @@ nav ul li a {
 }
 
 .home-image img {
-    border-radius: 50%;
+    border-radius: 10px;
     border-color: goldenrod;
     width: 150px;
     height: 150px;
@@ -211,7 +211,7 @@ nav ul li a {
 }
 
 #skills h2, #projects h2, #contact h2 {
-    color: maroon;
+    color: rgb(255, 255, 255);
 }
 
 #preloader {
@@ -270,7 +270,7 @@ nav ul li a {
 
 .social-links a {
     text-decoration: none;
-    color: #2c3e50;
+    color: #ffffff;
     font-size: 20px;
     margin: 0 15px;
     display: inline-flex;
@@ -282,7 +282,7 @@ nav ul li a {
 }
 
 .social-links a:hover {
-    color: maroon;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 480px) {
