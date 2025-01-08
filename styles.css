@@ -170,7 +170,7 @@ nav ul li a {
 }
 
 #home {
-    background: linear-gradient(135deg, maroon, royalblue);
+    background: linear-gradient(135deg, maroon, rgb(255, 161, 99));
     color: white;
 }
 
